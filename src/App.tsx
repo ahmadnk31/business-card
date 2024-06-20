@@ -61,17 +61,18 @@ const Footer=()=>{
   return(
     <footer className='text-center p-4'>
       <div className='flex justify-evenly mb-4'>
-      <button role='icon' className='text-2xl p-2 rounded border'><BsFacebook/></button>
-      <button role='icon' className='text-2xl p-2 rounded border'><BsTwitterX/></button>
-      <button role='icon' className='text-2xl p-2 rounded border'><BsTwitch/></button>
-      <button role='icon' className='text-2xl p-2 rounded border'><BsInstagram/></button>
-      <button role='icon' className='text-2xl p-2 rounded border'><BsTiktok/></button>
+      <a href='www.facebook.com/@ahmadn20' role='icon' className='text-2xl p-2 rounded border'><BsFacebook/></a>
+      <a href='www.facebook.com/@ahmadn20' role='icon' className='text-2xl p-2 rounded border'><BsTwitterX/></a>
+      <a href='www.facebook.com/@ahmadn20' role='icon' className='text-2xl p-2 rounded border'><BsTwitch/></a>
+      <a href='www.facebook.com/@ahmadn20' role='icon' className='text-2xl p-2 rounded border'><BsInstagram/></a>
+      <a href='www.facebook.com/@ahmadn20' role='icon' className='text-2xl p-2 rounded border'><BsTiktok/></a>
       </div>
       <small>&copy; 2021 Ahmadullah Nekzad</small>
     </footer>
   
   )
 }
+
 
 const App = () => {
   return (
