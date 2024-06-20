@@ -76,7 +76,7 @@ const Footer=()=>{
 
 const App = () => {
   return (
-    <div className='border w-1/3 m-4 rounded overflow-hidden mx-auto'>
+    <div className='border w-1/3 max-sm:w-full m-4 rounded overflow-hidden mx-auto'>
       <Header/>
       <Main/>
       <Footer/>
